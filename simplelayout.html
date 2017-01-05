@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+header {
+    padding:25px;
+    text-align:center;
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:50px;
+    float:top;
+    padding:5px;
+}
+section {
+    max-width:750px;
+    margin:25px 200px;
+    padding:5px;
+}
+footer {
+    background-color:#eeeeee;
+    color:black;
+    text-align:center;
+    padding:5px;
+}
+h1{
+    font-family:Verdana;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    color:#993366;
+    text-align:center;
+    font-size:30px;
+}
+
+h2{
+font-family:Verdana;
+leter-spacing:3px;
+color:#c6538c;
+text-align:left;
+font-size:25px;
+}
+
+h3{
+font-family:Verdana;
+letter-spacing:3px;
+color:#737373;
+text-align:left;
+font-size:20px;
+}
+
+a:link {
+color:#993366;
+}
+a:visited{
+color:#c6538c;
+}
+a:hover{
+color:#737373;
+}
+
+ul#menu {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 8px;
+    margin: 5px 280px 5px;
+    
+
+}
+ul#menu li{float: left;
+text-align: center;
+}
+
+ul#menu li a{
+    color:black;
+    font-family:Verdana;
+    text-transform:uppercase;
+    padding:5px;
+    font-size:20px;
+    margin:10px;
+    text-decoration: none;
+
+    
+}
+
+ul#menu li a:hover{
+	color:black;
+	border-bottom-style:solid;
+	border-color:#c6538c;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<h1>Catastrophe Rising</h1>
+
+<script language="JavaScript">
+// ==============================================
+// Copyright 2004 by CodeLifter.com
+// Free for all; but please leave in this header.
+// ==============================================
+
+var Quotation=new Array() // do not change this!
+
+// Set up the quotations to be shown, below.
+// To add more quotations, continue with the
+// pattern, adding to the array.  Remember
+// to increment the Quotation[x] index!
+
+Quotation[0] = "<i>Each day is a new 24 hours. Each day means everything's possible again. You live in the moment, you die in the moment, you take it all one day at a time.</i><p>~Day (Legend by Marie Lu)</p>";
+Quotation[1] = "<i>If I ever have a good, easy day, I'd probably freak out.</i></p>~Max (Maximum Ride by James Paterson)</p>";
+Quotation[2] = "<i>Is it important to be right or is it important to do what's right?</i><p>~Voice (Maximum Ride by James Patterson)</p>";
+Quotation[3] = "<i>So there you have it, the extent of my charms: Brown hair and eyes like unbarffed chocolate. I'm a lucky girl.</i><p>~Max (Maximum Ride by James Patterson)";
+Quotation[4] = "<i>I will now destroy de snickuhs bahrs!</i><p>~Gazzy (Maximum Ride by James Patterson)</p>";
+Quotation[5] = "<i>We now play a permanent game of I-am-crazier-and-scarier-than-you. And my mother is our secret weapon.</i><p>~Penryn (Angelfall by Susan Ee)</p>";
+Quotation[6] = "<i>Sometimes as we're stumbling around through the dark we hit something good.</i><p>~Penryn (Angelfall by Susan Ee)</p>";
+Quotation[7] = "<i>It matters not what someone is born, but what they grow to be.</i><p>~Dumbledore (Harry Potter by J.k. Rowling)</p>";
+Quotation[8] = "<i>Books! And cleverness! There are more important things - friendship and bravery.</i><p>~Hermione (Harry Potter by J.k. Rowling)</p>";
+Quotation[9] = "<i>You are confined only by the walls you build yourself</i><p>~June (Legend by Marie Lu)</p>";
+Quotation[10] = "<i>Your sense of judgement could use a dash of common sense.</i><p>~Raffe (Angelfall by Susan Ee)</p>";
+Quotation[11] = "<i>The next time you have a quarrel with me, I'd appreciate it if you could just talk to me first before resorting to pelting me with rocks.</i><p>~Raffe (Angelfall by Susan Ee)</p>";
+Quotation[12] = "<i>Either he's shaken by something or he's falling off the wagon hard and fast. Great. Just my luck to be partnered with an alcoholic angel.</i><p>~Penryn (Angelfall by Susan Ee)</p>";
+Quotation[13] = "<i>It was like the entire world was colluding to make me feel insane, and it was doing a really good job.</i><p>~Rory (The Name of the Star by Maureen Johnson)</p>";
+Quotation[14] = "<i>Don't get stabbed. It makes everything awkward</i><p>~Unknown (The Madness Underneath by Maureen Johnson)</p>";
+Quotation[15] = "<i>\"This is England,\" he explained. \"Tell someone it's a procedure and they'll believe you. The pointless procedure is one of our great natural resources\"</i><p>~Uknown (Madness Underneath by Maureen Johnson)</p>";
+Quotation[16] = "<i>I swear, the longer I live, the less things make sense</i><p>~Unknown (Mosquitoland by David Arnold)</p>";
+Quotation[17] = "<i>Life, it seems, delivers the best punch lines only after we've forgotten we were part of a joke</i><p>~Mim (Mosquitoland by David Arnold)</p>";
+Quotation[18] = "<i>Sometimes, things are more embarrassing when you're alone. I guess when no one's around to hear your stupidity, you're forced to bear the brunt of it.</i><p>~Mim (Mosquitoland by David Arnold)</p>";
+
+// ======================================
+// Do not change anything below this line
+// ======================================
+var Q = Quotation.length;
+var whichQuotation=Math.round(Math.random()*(Q-1));
+function showQuotation(){document.write(Quotation[whichQuotation]);}
+showQuotation();
+</script>
+</header>
+
+<nav>
+<ul id='menu'>
+<li><a href=''>Home</a></li>
+<li><a href=''>About</a></li>
+<li><a href=''>Archives</a></li>
+<li><a href=''>Contact</a></li>
+<li><a href=''>Links</a></li>
+</ul>
+</nav>
+
+<section>
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<a href=''>link</a>
+<p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis magna eget lacus convallis, ac ornare massa venenatis. Donec rutrum ex purus, id scelerisque neque rutrum et. In tempus ex non scelerisque finibus. Integer pulvinar vestibulum justo, ac vulputate ex mollis eget. Maecenas vel felis porta ex cursus rhoncus a sed diam. Aliquam ullamcorper neque odio, eget aliquet elit auctor eget. Nam consequat tempor neque, ut blandit libero pretium ut. Fusce quis congue neque, eu convallis neque. Etiam commodo ante vel vestibulum suscipit. Donec volutpat sodales ante quis tristique. Fusce sed ipsum ac est vulputate dictum.
+
+ </p>
+
+</section>
+
+<footer>
+© Cassidy Sowards, 2016
+<p>Hosted by <a href = "awe-inspired.com">Awe-inspired.com</a> .Powered by <a href='www.wordpress.org'>Wordpress</a> and outragous amounts of sugar. </p>
+<p>Quote rotator by <a href='www.codelifter.com'>Codelifter</a>.</p>
+<p>All rights reserved. </p>
+</footer>
+
+</body>
+</html>
